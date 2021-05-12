@@ -1,2 +1,2 @@
-FROM tomcat:jdk8-openjdk
-COPY gameoflife-web/target/gameoflife.war  /var/lib/tomcat8/webapps/gameoflife.war
+FROM tomcat:8
+COPY gameoflife-web/target/gameoflife.war  /usr/local/tomcat/webapps/gameoflife.war
