@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: gameoflife
-        image: "raghudusa/gameoflife:12052021"
+        image: "raghudusa/gameoflife:11012021"
         state: started
         published_ports:
            - "9002"
