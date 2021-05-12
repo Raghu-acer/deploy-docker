@@ -21,7 +21,7 @@
         state: present
     - name: Start the container
       docker_container:
-        name: raghudusaa
+        name: gameoflife
         image: "raghudusa/gameoflife:12052021"
         state: started
         published_ports:
