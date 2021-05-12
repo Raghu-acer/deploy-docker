@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: True
+  become: yes
   tasks:
     - name: Install python pip
       apt:
@@ -21,7 +21,7 @@
         state: present
     - name: Start the container
       docker_container:
-        name: hariapp
+        name: raghudusa
         image: "raghudusa/gameoflife:12052021"
         state: started
         published_ports:
