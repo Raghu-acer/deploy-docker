@@ -21,8 +21,8 @@
         state: present
     - name: Start the container
       docker_container:
-        name: raghudusa
+        name: raghudusaa
         image: "raghudusa/gameoflife:12052021"
         state: started
         published_ports:
-          - 0.0.0.0:8080:8080
+          - 0.0.0.0:8080:8082
