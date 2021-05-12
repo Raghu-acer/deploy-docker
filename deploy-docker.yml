@@ -25,4 +25,4 @@
         image: "raghudusa/gameoflife:12052021"
         state: started
         published_ports:
-          - "8080:9000"
+          - "9002"
